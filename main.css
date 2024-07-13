@@ -114,7 +114,7 @@ html {
     font-weight: bold;
     content: "\f816";
   }
-  pre {
+  .program {
   word-wrap: break-word;
   background-color: #f4f4f4;
   padding: 10px;
