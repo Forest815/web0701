@@ -114,15 +114,10 @@ html {
     font-weight: bold;
     content: "\f816";
   }
-    pre {
-    position:relative;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow: auto;
-    background-color: #F0F9F4;
-    color: #000;
-    border-left: 2px #004c25 solid;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 15px;
-    }
+  pre {
+  word-wrap: break-word;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  }
