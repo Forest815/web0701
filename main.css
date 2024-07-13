@@ -6,6 +6,14 @@ html {
     --theme-color-2: #fc3;
     color: #454545;
   }
+pre {
+  margin: 1em 0; /* ブロック前後の余白 */
+  padding: 1em; /* ブロック内の余白 */
+  border-radius: 5px; /* 角丸 */
+  background: #25292f; /* 背景色 */
+  color: #fff; /* 文字色 */
+  white-space: pre-wrap; /* はみ出たときに折り返す */
+}
 
 
   body {
@@ -16,18 +24,6 @@ html {
     max-width: 980px;
     margin: 2em auto;
     padding: 0px 30px;
-  }
-  pre {
-    position:relative;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow: auto;
-    background-color: #F0F9F4;
-    color: #000;
-    border-left: 2px #004c25 solid;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 15px;
   }
   h1 {
     position: relative;
