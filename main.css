@@ -7,6 +7,7 @@ html {
     color: #454545;
   }
 
+
   body {
     color: var(--main-foreground);
     line-height: 1.5;
@@ -16,7 +17,18 @@ html {
     margin: 2em auto;
     padding: 0px 30px;
   }
-  
+  pre {
+    position:relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    background-color: #F0F9F4;
+    color: #000;
+    border-left: 2px #004c25 solid;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
   h1 {
     position: relative;
     text-align: center;
