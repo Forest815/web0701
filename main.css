@@ -6,18 +6,7 @@ html {
     --theme-color-2: #fc3;
     color: #454545;
   }
-.program {
-    position:relative;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow: auto;
-    background-color: #F0F9F4;
-    color: #000;
-    border-left: 2px #004c25 solid;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 15px;
-  }
+
   body {
     color: var(--main-foreground);
     line-height: 1.5;
