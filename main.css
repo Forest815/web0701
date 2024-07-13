@@ -6,16 +6,6 @@ html {
     --theme-color-2: #fc3;
     color: #454545;
   }
-pre {
-  margin: 1em 0; /* ブロック前後の余白 */
-  padding: 1em; /* ブロック内の余白 */
-  border-radius: 5px; /* 角丸 */
-  background: #25292f; /* 背景色 */
-  color: #fff; /* 文字色 */
-  white-space: pre-wrap; /* はみ出たときに折り返す */
-}
-
-
   body {
     color: var(--main-foreground);
     line-height: 1.5;
@@ -121,4 +111,13 @@ pre {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: "\f816";
+  }
+
+  pre {
+    margin: 1em 0; /* ブロック前後の余白 */
+    padding: 1em; /* ブロック内の余白 */
+    border-radius: 5px; /* 角丸 */
+    background: #25292f; /* 背景色 */
+    color: #fff; /* 文字色 */
+    white-space: pre-wrap; /* はみ出たときに折り返す */
   }
