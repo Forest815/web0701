@@ -6,7 +6,13 @@ html {
     --theme-color-2: #fc3;
     color: #454545;
   }
-  
+.program {
+  word-wrap: break-word;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  }
   body {
     color: var(--main-foreground);
     line-height: 1.5;
@@ -113,11 +119,4 @@ html {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: "\f816";
-  }
-  .program {
-  word-wrap: break-word;
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 16px;
   }
