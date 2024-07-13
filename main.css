@@ -109,3 +109,6 @@ pre {
     color: #fff; /* 文字色 */
     white-space: pre-wrap; /* はみ出たときに折り返す */
 }
+.center-text {
+    text-align: center;
+}
