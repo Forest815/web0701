@@ -4,6 +4,7 @@ html {
     --theme-color-2: #fc3;
     color: #454545;
 }
+
 body {
     color: var(--main-foreground);
     line-height: 1.5;
