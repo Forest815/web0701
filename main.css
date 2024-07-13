@@ -7,11 +7,16 @@ html {
     color: #454545;
   }
 .program {
-  word-wrap: break-word;
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 16px;
+    position:relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    background-color: #F0F9F4;
+    color: #000;
+    border-left: 2px #004c25 solid;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
   }
   body {
     color: var(--main-foreground);
