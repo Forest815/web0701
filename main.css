@@ -110,5 +110,6 @@ pre {
     white-space: pre-wrap; /* はみ出たときに折り返す */
 }
 .center-text {
-    text-align: center;
+    width: 50%; /* 幅を指定 */
+    margin: 0 auto; /* 水平方向の中央揃え */
 }
