@@ -118,6 +118,33 @@ let product = a * b; // 50
 let quotient = a / b; // 2
 let remainder = a % b; // 0
 let fullGreeting = greeting + ", " + name + "!"; // "Hello, Alice!"</code></pre>
+    <h2>関数とスコープ</h2>
+    <h3>関数の定義と呼び出し</h3>
+    <pre><code>function greet(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+    <h3>アロー関数</h3>
+    <ul>
+      <li>関数の本体が単一の式である場合</li>
+    </ul>
+    <pre><code>let greet = name => "Hello, " + name + "!";
+console.log(greet("Alice")); // "Hello, Alice!"
+</code></pre>
+    <h3>アロー関数(省略形)</h3>
+    <pre><code>let greet = (name) => {
+    return "Hello, " + name + "!";
+};
+
+console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+    <h3>オブジェクト</h3>
+    <ul>
+      <li>キーと値のペアで構成されるデータ構造</li>
+    </ul>
+    <pre><code>let obj = {
+  name: "John",
+　age: 30
+};</code></pre>
     <p>
       我が家に伝わる一子相伝・門外不出の<strong>秘伝のカレーレシピ</strong>を
       今だけ特別に大公開！<br />
