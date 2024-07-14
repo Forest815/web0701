@@ -57,7 +57,6 @@ h2::before {
     color: var(--theme-color-2);
 }
 img {
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     border-radius: 20px;
     display: flex;
     justify-content: center; /* 水平方向の中央揃え */
