@@ -59,10 +59,8 @@ h2::before {
 img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center; /* 水平方向の中央寄せ */
-    align-items: center; /* 垂直方向の中央寄せ */
-    height: 100vh; /* 親要素の高さ */
+    margin: auto;
+  　display: block;
 }
 strong {
     font-style: normal;
