@@ -139,5 +139,38 @@ console.log(greet("Alice")); // "Hello, Alice!"
 };
 
 console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+    <h3>スコープ</h3>
+    <ul>
+      <li>変数が有効な範囲</li>
+    </ul>
+    <pre><code>function outerFunction() {
+    let outerVar = "I am outside!";
+
+    function innerFunction() {
+        let innerVar = "I am inside!";
+        console.log(outerVar); // "I am outside!"
+        console.log(innerVar); // "I am inside!"
+    }
+
+    innerFunction();
+    // console.log(innerVar); // エラー
+}
+outerFunction();</code></pre>
+    <h3>クロージャ</h3>
+    <ul>
+      <li>変関数が自分の外側にあるスコープを記憶して、そのスコープにアクセスできる仕組み</li>
+    </ul>
+    <pre><code>ffunction createCounter() {
+    let count = 0;
+    return function() {
+        count++;
+        return count;
+    };
+}
+
+let counter = createCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+console.log(counter()); // 3</code></pre>
   </body> <!-- ここまで本文終了 -->
 </html>
