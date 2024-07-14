@@ -57,10 +57,10 @@ h2::before {
     color: var(--theme-color-2);
 }
 img {
-    border-radius: 20px;
-    display: flex;
-    justify-content: center; /* 水平方向の中央揃え */
-    align-items: center; /* 垂直方向の中央揃え */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    place-items: center; /* 中央寄せ */
+    height: 100vh; /* 親要素の高さ */
 }
 strong {
     font-style: normal;
