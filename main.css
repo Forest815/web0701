@@ -2,7 +2,23 @@ html {
     font-family: "Yusei Magic", sans-serif;
     --theme-color-1: #f50;
     --theme-color-2: #fc3;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     color: #454545;
+}
+.center-text {
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+.code-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
 }
 
 body {
@@ -109,19 +125,7 @@ pre {
     background: #25292f; /* 背景色 */
     color: #fff; /* 文字色 */
     white-space: pre-wrap; /* はみ出たときに折り返す */
-}
-.center-text {
-    display: flex;
-    justify-content: center; /* 水平方向の中央揃え */
-    align-items: center; /* 垂直方向の中央揃え */
-}
-.code-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 600px;
+    overflow-x: auto;
 }
 button {
     margin-top: 10px;
