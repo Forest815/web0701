@@ -96,6 +96,13 @@ ul li::before {
     font-weight: bold;
     content: "\f109";
 }
+strong {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 125%;
+    padding: 0 0.2em;
+    color: var(--theme-color-1);
+  }
 pre {
     margin: 1em 0; /* ブロック前後の余白 */
     padding: 1em; /* ブロック内の余白 */
