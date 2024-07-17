@@ -49,16 +49,18 @@ if (true) {
 console.log(y); // 10</code></pre>
         <button class="copyButton">コピー</button>
     </div>
-    <script src="script.js"></script>
     <h3>const</h3>
     <ul>
       <li>ES6で導入された定数宣言方法</li>
       <li>一度値を設定すると再代入不可（ただし、オブジェクトや配列のプロパティや要素の変更は可能）</li>
       <li>スコープはletと同じくブロックスコープ</li>
     </ul>
-    <pre><code>const z = 10;
+    <div class="code-container">
+        <pre><code>const z = 10;
 console.log(z); // 10
 // z = 20; // エラー</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <p>
       let、var、constの違いを説明する</br>
       まず、これらの違いを表1-1に示す。
@@ -101,21 +103,28 @@ let floatNum = 3.14;</code></pre>
     <ul>
       <li>キーと値のペアで構成されるデータ構造</li>
     </ul>
-    <pre><code>let obj = {
+    <div class="code-container">
+       <pre><code>let obj = {
   name: "John",
 　age: 30
 };</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h3>配列</h3>
     <ul>
       <li>順序付きのデータの集合</li>
     </ul>
-    <pre><code>let arr = [1, 2, 3, 4, 5];</code></pre>
+    <div class="code-container">
+       <pre><code>let arr = [1, 2, 3, 4, 5];</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h2>基本的な操作</h2>
     <h3>算術演算と文字列操作</h3>
     <ul>
       <li>cやpythonなどと算術演算子は同じである</li>
     </ul>
-    <pre>let a = 10;
+    <div class="code-container">
+       <pre><code><let a = 10;
 let b = 5;
 let greeting = "Hello";
 let name = "Alice";
@@ -125,32 +134,42 @@ let difference = a - b; // 5
 let product = a * b; // 50
 let quotient = a / b; // 2
 let remainder = a % b; // 0
-let fullGreeting = greeting + ", " + name + "!"; // "Hello, Alice!"</code></pre>
+let fullGreeting = greeting + ", " + name + "!"; // "Hello, Alice!"/code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h2>関数とスコープ</h2>
     <h3>関数の定義と呼び出し</h3>
-    <pre><code>function greet(name) {
+    <div class="code-container">
+       <pre><code>function greet(name) {
     return "Hello, " + name + "!";
 }
 console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h3>アロー関数</h3>
-    
-    <pre><code>let greet = name => "Hello, " + name + "!";
-console.log(greet("Alice")); // "Hello, Alice!"
-</code></pre>
+    <div class="code-container">
+       <pre><code>let greet = name => "Hello, " + name + "!";
+console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h3>アロー関数(省略形)</h3>
     <ul>
       <li>関数の本体が単一の式である場合</li>
     </ul>
-    <pre><code>let greet = (name) => {
+    <div class="code-container">
+       <pre><code>let greet = (name) => {
     return "Hello, " + name + "!";
 };
 
 console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h3>スコープ</h3>
     <ul>
       <li>変数が有効な範囲</li>
     </ul>
-    <pre><code>function outerFunction() {
+    <div class="code-container">
+       <pre><code>function outerFunction() {
     let outerVar = "I am outside!";
 
     function innerFunction() {
@@ -163,11 +182,14 @@ console.log(greet("Alice")); // "Hello, Alice!"</code></pre>
     // console.log(innerVar); // エラー
 }
 outerFunction();</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
     <h3>クロージャ</h3>
     <ul>
       <li>変関数が自分の外側にあるスコープを記憶して、そのスコープにアクセスできる仕組み</li>
     </ul>
-    <pre><code>ffunction createCounter() {
+    <div class="code-container">
+       <pre><code>ffunction createCounter() {
     let count = 0;
     return function() {
         count++;
@@ -179,5 +201,8 @@ let counter = createCounter();
 console.log(counter()); // 1
 console.log(counter()); // 2
 console.log(counter()); // 3</code></pre>
+        <button class="copyButton">コピー</button>
+    </div>
+    <script src="script.js"></script>
   </body> <!-- ここまで本文終了 -->
 </html>
