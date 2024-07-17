@@ -109,16 +109,17 @@ ul li {
     padding: 0 0 0 1.6em;
     margin: 0;
     text-indent: 0.5em;
-}
-ul li::before {
+  }
+  
+  ul li::before {
     position: absolute;
     left: 0.5em;
     top: 0.4em;
     font-size: 75%;
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: "\f109";
-}
+    content: "\f816";
+  }
 .code-container {
     background-color: #fff;
     padding: 20px;
