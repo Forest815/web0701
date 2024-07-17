@@ -43,9 +43,9 @@ h1 {
     background: var(--theme-color-2);
     box-shadow: 0px 0px 0px 5px var(--theme-color-2);
     border: dashed 2px white;
-  }
+}
   
-  h1::after {
+h1::after {
     position: absolute;
     content: "";
     left: -7.5px;
@@ -54,18 +54,18 @@ h1 {
     border-style: solid;
     border-color: #fff #fff var(--theme-color-2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  }
+}
   
-  h2 {
+h2 {
     position: relative;
     font-size: 200%;
     letter-spacing: 0.05em;
     font-weight: normal;
     padding: 0 0 0 1.5em;
     border-bottom: 3px solid var(--theme-color-2);
-  }
+}
   
-  h2::before {
+h2::before {
     position: absolute;
     left: 0.4em;
     font-weight: bold;
@@ -74,6 +74,12 @@ h1 {
     top: 0.2em;
     font-size: 85%;
     color: var(--theme-color-2);
+}
+a:hover {
+    color: white;
+    background-color: var(--theme-color-1);
+    border-radius: 4px;
+    border-bottom: none;
   }
 ul li {
     position: relative;
