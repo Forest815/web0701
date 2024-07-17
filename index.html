@@ -19,14 +19,21 @@
       <li>古くから使われている変数宣言方法</li>
       <li>スコープが関数スコープ</li>
     </ul>
-    <div class="code-container">
-        <pre id="code"><code>var x = 10;
+    <div class="clipboard">
+      <div class="clipboard__inner">
+        <p class="clipboard__text-box">
+            <pre class="clipboard__text js-clipboard-text"><code>var x = 10;
 if (true) {
   var x = 20;
   console.log(x); // 20
 }
 console.log(x); // 20</code></pre>
         <button id="copyButton">コピー</button>
+        </p>
+        <p class="clipboard__button js-clipboard-button">
+          <span class="clipboard__button-text js-clipboard-text-change">クリップボードにコピー１</span>
+        </p>
+      </div><!-- /.clipboard__inner -->
     </div>
     <script src="script.js"></script>
     
