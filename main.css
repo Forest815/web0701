@@ -7,7 +7,15 @@ html {
     margin: 0;
     color: #454545;
 }
-
+body {
+    color: var(--main-foreground);
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    max-width: 980px;
+    margin: 2em auto;
+    padding: 0px 30px;
+}
 .center-text {
     display: flex;
     justify-content: center; /* 水平方向の中央揃え */
@@ -22,21 +30,6 @@ html {
     max-width: 600px;
 }
 
-body {
-    color: var(--main-foreground);
-    line-height: 1.5;
-    word-wrap: break-word;
-    box-sizing: border-box;
-    max-width: 980px;
-    margin: 2em auto;
-    padding: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
 h1 {
     position: relative;
     text-align: center;
