@@ -141,3 +141,61 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+/*--------------------
+ clipboard
+--------------------*/
+.clipboard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  max-width: 300px;
+  height: 90%;
+  max-height: 230px;
+  margin: auto;
+  z-index: 100;
+}
+
+.clipboard__inner {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.clipboard__inner:last-child {
+  margin-bottom: 0;
+}
+
+.clipboard__text-box {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.clipboard__text {
+  display: inline-block;
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.clipboard__button {
+  cursor: pointer;
+}
+
+.clipboard__button-text {
+  display: block;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  background-color: #202f55;
+  border-radius: 5px;
+}
+
+.clipboard__button-text.is-text-change {
+  background-color: rgba(32, 47, 85, 0.8);
+}
