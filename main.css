@@ -74,10 +74,6 @@ h2::before {
     font-size: 85%;
     color: var(--theme-color-2);
 }
-img {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 20px;
-}
 strong {
     font-style: normal;
     font-weight: normal;
