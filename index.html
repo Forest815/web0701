@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="utf-8" />
@@ -9,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" />
     <link rel="stylesheet" href="main.css" />
 </head>
-
+    
 <body> <!-- ここから本文開始 -->
 
     <h1>JavaScriptの基本的な技術の解説</h1>
@@ -19,23 +18,15 @@
       <li>古くから使われている変数宣言方法</li>
       <li>スコープが関数スコープ</li>
     </ul>
-    <div class="clipboard">
-      <div class="clipboard__inner">
-        <p class="clipboard__text-box">
-            <pre class="clipboard__text js-clipboard-text"><code>var x = 10;
+    <div class="code-container">
+        <pre><code>var x = 10;
 if (true) {
   var x = 20;
   console.log(x); // 20
 }
 console.log(x); // 20</code></pre>
-        <button id="copyButton">コピー</button>
-        </p>
-        <p class="clipboard__button js-clipboard-button">
-          <span class="clipboard__button-text js-clipboard-text-change">クリップボードにコピー１</span>
-        </p>
-      </div><!-- /.clipboard__inner -->
+        <button class="copyButton">コピー</button>
     </div>
-    <script src="script.js"></script>
     
     <h3>let</h3>
     <ul>
@@ -43,13 +34,13 @@ console.log(x); // 20</code></pre>
       <li>スコープがブロックスコープ</li>
     </ul>
     <div class="code-container">
-        <pre id="code"><code>let y = 10;
+        <pre><code>let y = 10;
 if (true) {
   let y = 20;
   console.log(y); // 20
 }
 console.log(y); // 10</code></pre>
-        <button id="copyButton1">コピー</button>
+        <button class="copyButton">コピー</button>
     </div>
     <script src="script.js"></script>
     <h3>const</h3>
