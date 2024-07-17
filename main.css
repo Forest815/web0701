@@ -1,10 +1,9 @@
 html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     font-family: "Yusei Magic", sans-serif;
     --theme-color-1: #f50;
     --theme-color-2: #fc3;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     color: #454545;
 }
 .center-text {
