@@ -1,11 +1,16 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: "DotGothic16", sans-serif;
     --theme-color-1: #f50;
     --theme-color-2: #fc3;
     color: #454545;
 }
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .center-text {
     display: flex;
     justify-content: center; /* 水平方向の中央揃え */
