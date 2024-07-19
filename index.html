@@ -85,7 +85,7 @@ console.log(z); // 10
       ブロックスコープであるletやconstであれば、ブロック内のみチェックすれば良いので見る範囲を短縮できる。</br>
 
       上記の理由からJavaScriptで変数を定義するときは、値の再代入が不要な場合はconst、そうではない場合はletの利用が適している。</br>
-      <a href="https://techplay.jp/column/1619">参考文献</a>
+      <a href="https://techplay.jp/column/1619">参考文献(1)</a>
     </p>
     
     
@@ -219,6 +219,8 @@ console.log(counter()); // 3</code></pre>
       関数内で特定の変数を参照し続けることで、関数が状態を持てる仕組みのことである。</br>
       JavaScriptはメモリ解放にガベージコレクションを採用しているため、関数内で変数を参照し続ける限りはメモリの状態を保持する。</br>
       そのため、変数のデータが初期化されることなく残り続け、あたかも状態を保持しているかのように振る舞う。</br>
+      <a href="https://jsprimer.net/basic/function-scope/">参考文献(2)</a></br>
+      <a href="https://zenn.dev/takiko/articles/5400a6b0c6bd7d">参考文献(3)</a></br>
     </p>
     <script src="script.js"></script>
   </body> <!-- ここまで本文終了 -->
