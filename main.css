@@ -1,6 +1,5 @@
 html {
-    color: lemonchiffon; /* テキストの色を指定 */
-    background-color: dimgray;
+    color: #454545
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: "DotGothic16", sans-serif;
